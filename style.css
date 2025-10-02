@@ -47,6 +47,45 @@ h1{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.skillset-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;  
+    align-items: center; 
+    border: 1px solid black;  
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;     
+    height: 30px;   
+}
+
+.skill img {
+    height: 20px; 
+    width: 20px;
+}
+
+.skill-topic {
+    font-size: 25px;
+    text-align: center;
+}
+
+
 .contact{
     width: 400px;
     height: 500px;
